@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    padding: 30px;
+    object-fit: cover
+}
+
+button{
+    font-family: "Nunito", serif;
+    background-color: #1A9CB0;
+    color: white;
+    padding: 8px 10px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin:0 15px
+}
+
+button, .arrows:hover{
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows{
+    margin:0 -70px;
+    z-index: 1;
+}
+
+
+
